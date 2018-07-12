@@ -212,6 +212,23 @@ main .join {
     line-height: 51px;
 }
 
+.deals a {
+
+    text-decoration: none;
+}
+
+.deals h4 {
+    color:  #392d3b;
+    font-size: 32px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: center;
+}
+
 .deals .item {
-    
+    display: flex;  
+   align-items: flex-end;
+}
+
+.deals .arrow {
+    margin-top: 83px;
 }

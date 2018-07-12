@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1600px;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+header {
+    height: 793px;
+    background-image: url("");
+    background-color:  rgba(33, 20, 44, 0.7);
+}
+
+#logo {
+    margin-top: 43px;
+    margin-left: 57px;
+}
+
+nav > .row {
+    margin-top: 74px;
+    text-align: center;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+nav > .row a {
+    text-decoration: none;
+    color:  #ffffff;
+}
+
+header .text {
+    text-align: center;
+    margin-top: 200px;
+}
+
+header .text p {
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+header .text h3 {
+    color:  #ffffff;
+    font-size: 110px;
+    font-weight: 900;
+}
+
+header .text h4 {
+    color:  #ffffff;
+    font-size: 39px;
+    font-weight: 500;
+}
+
+footer {
+    height: 405px;
+    background-color:  rgba(33, 20, 44, 0.7);
+    padding-top: 101px
+}
+
+footer .text {
+    text-align: center;
+}
+
+footer .text h6 {
+    color:  #ffffff;
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer .text h5 {
+    margin-top: 60px;
+    font-family: 'Source Sans Pro';
+    color:  #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+footer .text h5>em {
+    font-family: 'Source Sans Pro';
+    color:  #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+footer address {
+    text-align: left;
+}
+
+footer address > p {
+    text-align: left;
+    color:  #ffffff;
+    font-size: 16px;
+}
+
+footer address a {
+    text-decoration: none;
+}
+
+main .intro h6 {
+    color:  #392d3b;
+    margin-top: 123px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+main .intro p {
+    color:  #5a495e;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+main .join {
+    background-image: url("img/Shape\ 3.jpg");
+    height: 631px;
+    text-align: center;
+    padding-top: 158px;
+}
+
+.join .join-content {
+    text-align: center;
+}
+
+.join .join-content h5 {
+    color:  #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.join .join-content p {
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.join > img {
+    margin-top: 120px;
+    
+}
+
+.new-collection {
+    height: 587px;
+}
+
+.new-collection .col-md-8 {
+    height: 587px;
+    background-image: url("img/Layer\ 10.png");
+}
+
+.new-collection .text {
+    margin-top: 86px;
+    margin-left: 89px;
+    width: 222px;
+}
+
+.new-collection .text h4 {
+    color:  #ffffff;
+    font-size: 48px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 51px;/* Приближение из-за подстановки шрифтов */
+}
+
+.new-collection .text h3 {
+    color:  #ffffff;
+    font-size: 48px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    line-height: 51px;
+}
+
+.new-collection .text h6 {
+    color:  #ffffff;
+    font-size: 32px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+}
+
+.new-collection .text .view-btn {
+    margin-top: 80px;
+    width: 208px;
+    height: 64px;
+    border: 3px solid white;
+    text-align: center;
+    color:  #ffffff;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 51px;
+}
+
+.new-collection .text .view-btn a {
+    text-decoration: none;
+}
+
+.deals {
+    padding-top: 75px;
+    text-align: center;
+}
+
+.deals > h1 {
+    color:  #392d3b;
+    font-size: 48px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 51px;
+}
+
+.deals a {
+
+    text-decoration: none;
+}
+
+.deals h4 {
+    color:  #392d3b;
+    font-size: 32px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    text-align: center;
+}
+
+.deals .item {
+    display: flex;  
+   align-items: flex-end;
+}
+
+.deals .arrow {
+    margin-top: 83px;
+}
