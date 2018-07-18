@@ -15,8 +15,8 @@ body {
 
 header {
     height: 793px;
-    background-image: url("");
-    background-color:  rgba(33, 20, 44, 0.7);
+    background: url("img/background.png") rgba(33, 20, 44, 0.7) right no-repeat;
+    
 }
 
 #logo {
@@ -24,22 +24,47 @@ header {
     margin-left: 57px;
 }
 
-nav > .row {
+nav > ul {
     margin-top: 74px;
     text-align: center;
     color:  #ffffff;
     font-size: 14px;
     font-weight: 700;
+    list-style-type: none;
 }
 
-nav > .row a {
+nav > ul > li {
+    float: left;
+    padding-right: 49px;
+}
+
+nav > ul > li:last-child {
+    padding-right: 0px;
+}
+
+nav > ul a {
     text-decoration: none;
     color:  #ffffff;
+}
+
+nav > ul a:hover {
+    text-decoration: none;
+    color: ghostwhite;
 }
 
 header .text {
     text-align: center;
     margin-top: 200px;
+    position: relative;
+}
+
+header .text img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 45px;
 }
 
 header .text p {
@@ -52,12 +77,38 @@ header .text h3 {
     color:  #ffffff;
     font-size: 110px;
     font-weight: 900;
-}
+} 
 
 header .text h4 {
     color:  #ffffff;
     font-size: 39px;
     font-weight: 500;
+}
+
+header .right-menu {
+    margin-top: 71px;
+}
+header .right-menu > ul {
+    list-style-type: none;
+}
+
+header .right-menu li {
+    float: left;
+    border-right: 1px solid white;    
+    line-height: 26px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+header .right-menu li:last-child {
+    padding-right: 0px;
+    border-right: none;
+}
+
+header .right-menu input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
 }
 
 footer {
@@ -103,7 +154,12 @@ footer address > p {
 }
 
 footer address a {
+    color: white;
     text-decoration: none;
+}
+
+footer address a:hover {
+    color: white;
 }
 
 main .intro h6 {
@@ -126,6 +182,7 @@ main .join {
     height: 631px;
     text-align: center;
     padding-top: 158px;
+    margin-top: 120px;
 }
 
 .join .join-content {
@@ -146,16 +203,22 @@ main .join {
 
 .join > img {
     margin-top: 120px;
-    
 }
 
 .new-collection {
     height: 587px;
 }
 
+.new-collection .col-md-4 {
+    height: 587px;
+    background-origin: border-box;
+    background-image: url("img/sweaters.png");
+}
+
 .new-collection .col-md-8 {
     height: 587px;
-    background-image: url("img/Layer\ 10.png");
+    background-image: url("img/girl.png");
+    background-repeat: no-repeat;
 }
 
 .new-collection .text {
@@ -198,11 +261,22 @@ main .join {
 
 .new-collection .text .view-btn a {
     text-decoration: none;
+    color: white;
 }
+
+.new-collection .text .view-btn a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 
 .deals {
     padding-top: 75px;
     text-align: center;
+}
+
+.deals > .row {
+    margin-top: 50px;
 }
 
 .deals > h1 {
@@ -217,11 +291,25 @@ main .join {
     text-decoration: none;
 }
 
+.deals h6 {
+    color:  #5a495e;
+    margin-top: 20px;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
 .deals h4 {
     color:  #392d3b;
     font-size: 32px;/* Приближение из-за подстановки шрифтов */
     font-weight: 300;
     text-align: center;
+}
+
+.deals p {
+    color:  #392d3b;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 .deals .item {
@@ -231,4 +319,37 @@ main .join {
 
 .deals .arrow {
     margin-top: 83px;
+}
+
+.deals .item-container {
+    padding: 0px;
+    width: 352px;
+    float: left;
+    margin-right: 29px;
+}
+
+.deals .item-container > h3 {
+    margin-top: 30px;
+    color:  #392d3b;
+    font-size: 32px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+}
+
+.deals .item-container > h5 {
+    color:  #5a495e;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+}
+
+.deals .item-container .shop-btn {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 206px;
+    height: 62px;
+    border: 1px solid #5a495e;
+    color:  #5a495e;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 51px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
 }
