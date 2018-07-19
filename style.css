@@ -14,9 +14,24 @@ body {
 }
 
 header {
-    height: 793px;
-    background: url("img/background.png") rgba(33, 20, 44, 0.7) right no-repeat;
-    
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 900px;
+    /*background: url("img/background.png") rgba(33, 20, 44, 0.7) right no-repeat;*/
+    /*background: rgba(0, 0, 0, 0.5);*/
+    color: #f1f1f1;
+    width: 100%;
+}
+
+#header-video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    z-index: -1;
+    /*min-width: 100%;*/
+    /*min-height: 100%;*/
 }
 
 #logo {
@@ -25,7 +40,7 @@ header {
 }
 
 nav > ul {
-    margin-top: 74px;
+    margin-top: 50px;
     text-align: center;
     color:  #ffffff;
     font-size: 14px;
@@ -34,22 +49,29 @@ nav > ul {
 }
 
 nav > ul > li {
-    float: left;
-    padding-right: 49px;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    /*padding-right: 49px;*/
 }
 
 nav > ul > li:last-child {
-    padding-right: 0px;
+    padding-right: 0;
 }
 
 nav > ul a {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
     text-decoration: none;
     color:  #ffffff;
 }
 
 nav > ul a:hover {
     text-decoration: none;
-    color: ghostwhite;
+    color: #dc5352;
 }
 
 header .text {
@@ -159,7 +181,8 @@ footer address a {
 }
 
 footer address a:hover {
-    color: white;
+    /*color: white;*/
+    color: #dc5352;
 }
 
 main .intro h6 {
@@ -266,7 +289,8 @@ main .join {
 
 .new-collection .text .view-btn a:hover {
     text-decoration: none;
-    color: white;
+    /*color: white;*/
+    color: #dc5352;
 }
 
 
@@ -353,3 +377,8 @@ main .join {
     line-height: 51px;/* Приближение из-за подстановки шрифтов */
     text-align: center;
 }
+
+.video-section {
+    padding-top: 50px;
+}
+
